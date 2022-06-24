@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Image src={test} width={455} height={639}></Image>
+      <img src="./../public/test.jpg"></img>
     </div>
   );
 }
